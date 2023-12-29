@@ -1,0 +1,105 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+button {
+    transition: .2s ease-in-out;
+}
+
+h1 {
+    line-height: 1;
+}
+
+nav #icons i {
+    cursor: pointer;
+    transition: .2s ease-in-out;
+}
+
+nav #icons i:hover {
+    color: gray;
+}
+
+.nav-toggle {
+    max-height: 0;
+    opacity: 0;
+    visibility: hidden;
+    transition: max-height 1s ease-in-out, opacity 1s ease-in-out, margin 1s ease;
+}
+
+.nav-toggle.active {
+    margin: 3rem auto;
+    max-height: 1200px;
+    opacity: 1;
+    visibility: visible;
+}
+
+.nav-list {
+    cursor: pointer;
+    transition: .2s ease-in;
+}
+
+.nav-list:hover {
+    color: gray;
+}
+
+.hero {
+    background-image: url('../assets/cover.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.learn-more {
+    position: relative;
+    width: fit-content;
+}
+
+.learn-more::after {
+    content: "";
+    bottom: 0;
+    left: 0;
+    height: 2px;
+    width: 100%;
+    position: absolute;
+    display: block;
+    background-color: #FFA62B;
+    transition: .2s ease-in-out;
+}
+
+.learn-more:hover::after {
+    width: 0;
+}
+
+.cover-2 {
+    height: 442px;
+    max-width: 887px;
+    background-image: url('../assets/cover2.jpg');
+    background-position: center;
+    background-size: cover;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: gray;
+    z-index: -1;
+    display: flex;
+    flex-direction: column;
+}
+
+.appointment {
+    background-image: url('../assets/cover3.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+footer p:hover {
+    color: #FFA62B;
+    cursor: pointer;
+}
