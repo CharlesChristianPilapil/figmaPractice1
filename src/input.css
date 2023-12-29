@@ -43,7 +43,7 @@ nav #icons i:hover {
 }
 
 .hero {
-    background-image: url('../assets/cover.png');
+    background-image: url('/assets/cover.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -73,7 +73,7 @@ nav #icons i:hover {
 .cover-2 {
     height: 442px;
     max-width: 887px;
-    background-image: url('../assets/cover2.jpg');
+    background-image: url('/assets/cover2.jpg');
     background-position: center;
     background-size: cover;
     margin: auto;
@@ -93,7 +93,7 @@ nav #icons i:hover {
 }
 
 .appointment {
-    background-image: url('../assets/cover3.jpg');
+    background-image: url('/assets/cover3.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
