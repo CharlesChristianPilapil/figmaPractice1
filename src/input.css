@@ -43,7 +43,7 @@ nav #icons i:hover {
 }
 
 .hero {
-    background-image: url('assets/cover.png');
+    background-image: url('/assets/cover.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
